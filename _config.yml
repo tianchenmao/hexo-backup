@@ -99,6 +99,9 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: matery
 
+# math 
+mathjax: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

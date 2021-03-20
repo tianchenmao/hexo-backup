@@ -5,9 +5,12 @@ tags:
 categories:
 - [Machine Learning,regression]
 - [Machine Learning,classification]
+mathjax: true
 ---
 
 #  Logistic  Regression
 
-
+$$
+\theta
+$$
 
