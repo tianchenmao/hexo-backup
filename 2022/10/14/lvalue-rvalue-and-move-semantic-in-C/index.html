@@ -429,9 +429,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/hexo-backup/tags/C/">
+                                <span class="chip bg-color">C++</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -452,7 +456,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    260
                 </div>
                 
 
@@ -469,7 +473,8 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="lvalue-rvalue-and-move-semantic-in-C"><a href="#lvalue-rvalue-and-move-semantic-in-C" class="headerlink" title="lvalue,rvalue and move semantic in C++"></a>lvalue,rvalue and move semantic in C++</h1><p>函数形参左值引用与右值引用的区别仅在重载时选择候选函数阶段，之后都会变成相同的引用。编译器只会保证被右值引用绑定的纯右值不会销毁，而无法保证被右值引用绑定的将亡值不会被销毁，话句话说，编译器什么都不做。使用右值引用作为形参默认假设被引用的是将要消亡的值（但编译器没有任何保证机制，既无法保证传入的一定是将要消亡的值又不会直接将它的资源转移），如何进行移动将全部交由用户来实现，用户从右值转移资源时需要保证之后该对象销毁时不会对已经转移的资源产生影响，即应该把该右值与其所绑定的资源解绑（例如在转移后将其拥有的指向资源的指针置为空指针）。</p>
+
                 
             </div>
             <hr/>
@@ -532,7 +537,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/hexo-backup/tags/C/">
+                                    <span class="chip bg-color">C++</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -760,6 +769,14 @@
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/hexo-backup/tags/C/">
+                        <span class="chip bg-color">C++</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1004,7 +1021,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">5.3k</span>&nbsp;字
+                class="white-color">5.6k</span>&nbsp;字
             
             
             
